@@ -1,0 +1,75 @@
+*{box-sizing: border-box}
+
+.wrapper{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: bisque;
+    font-size: 40px;
+    width: 350px;
+}
+
+.instructions{
+    background-color: yellow;
+    width: 500px;
+
+}
+
+.randomNumber{
+    height: 150px;
+    width: 175px;
+    margin-right: 25px;
+    background-color: turquoise;
+    float: left;
+}
+
+.winLossBox{
+    height: 150px;
+    width: 80px;
+    background-color: steelblue;
+    float: left;
+}
+
+.crystals{
+    clear: both;
+    padding-top: 20px;
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn-1{
+    background-color: green;
+    }
+
+.btn-2{
+    background-color: red;
+}
+
+.btn-3{
+    background-color: black;
+    color: white;
+}
+
+.btn-4{
+    background-color: blue;
+}
+
+.yourScoreIs{
+    clear: both;
+    background-color: skyblue;
+    width: 250px;
+}
+
+.crystalTotals{
+    clear: both;
+    background-color: teal;
+    width: 250px;
+    height: 200px;
+}

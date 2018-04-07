@@ -4,31 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link 
+    <title>Crystals Collector Game</title>
+    <link rel="stylesheet" text="text/css" href="assets\css\style.css" link>
 </head>
 <body>
-   <!-- //*Create HTML
+    <!-- //*Create HTML !-->
 
-    //link the javascript file
+    <div class="wrapper">
 
-    Use the console.log("this is linked!")
+        <!--Header !-->
 
-    //Header
-    //Instruction Div
-    //<Section>
-        //Random Number div
-            //this random number should be between 19-120
-        //Wins and losses div   
-            //possibly use HTML solution
+        <header>Crystals Collector!</header>
+
+        <div class="instructions">
+
+            <h4>You will be given a random number at the start of the game.
+                <br><br><br>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                <br><br><br>
+                You win the game by matching your total score to the random number, your lose the game if your total score goes above the random number.
+                <br><br><br>
+                The value of each crystal is hidden from you until you click on it. 
+                <br><br><br>
+                Each time when the game starts, the game will change the values of each crystal. 
+
+            </h4>
+        </div>
+
+        <div class="randomNumber">
+            #####
+        </div>
+
+        <div class="winLossBox">
+            <h3>Win Loss Message</h3>
+            <div id="wins">Wins</div>
+            <div id="losses">Losses</div>
+        </div>
+
+        <div class="crystals">
+            <div class="btn btn-1">Green</div>
+            <div class="btn btn-2">Red</div>
+            <div class="btn btn-3">Black</div>
+            <div class="btn btn-4">Blue</div>
+
+            <!--need 4 buttons in this div !-->
+        </div>
+
+        <div class="yourScoreIs"> 
+            Your Score Is:
+            <div class="crystalTotals">
+                crystalTotals Here!
+            </div>
+
+        </div>  
+            <!--
+            //link the javascript file
+
+            Use the console.log("this is linked!")
+
+    
+            //Instruction Div
+            //<Section>
+             //Random Number div
+                    //this random number should be between 19-120
+            //Wins and losses div   
+                //possibly use HTML solution
 
 
-    //crystal buttons div (B1, B2, B3, B4)
-        //each button will have a random function assigned
-        //each random crystal button will generate a number between 1-12 
-    //your total score is 
-    //results div will add the random number generated for B1, B2, B3, B4
-    <!-
+            //crystal buttons div (B1, B2, B3, B4)
+                //each button will have a random function assigned
+                //each random crystal button will generate a number between 1-12 
+            //your total score is 
+            //results div will add the random number generated for B1, B2, B3, B4
+            !-->
 
+    </div>
 </body>
 </html>
