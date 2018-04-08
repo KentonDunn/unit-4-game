@@ -30,25 +30,29 @@ var runGame = function()
 
     //assigning button clicks
     $(".btn-1").on("click", function(){
-        console.log("You clicked green!");
+        console.log("Green adds: " + btn1);
+        crystalsTotal += btn1;
+        console.log("Score is: " + crystalsTotal);
     })
     $(".btn-2").on("click", function(){
-        console.log("You clicked red!");
+        console.log("Red adds: " + btn2);
+        crystalsTotal += btn2;
+        console.log("Score is: " + crystalsTotal);
     })
     $(".btn-3").on("click", function(){
-        console.log("You clicked black!");
+        console.log("Black adds: " + btn3);
+        crystalsTotal += btn3;
+        console.log("Score is: " + crystalsTotal);
     })
     $(".btn-4").on("click", function(){
-        console.log("You clicked blue!");
+        console.log("Blue adds: " + btn4);
+        crystalsTotal += btn4;
+        console.log("Score is: " + crystalsTotal);
     })
 
     //adding to the crystals total with each click
     $(".btn").on("click", function(){
-        crystalsTotal += btn1;
-        crystalsTotal += btn2;
-        crystalsTotal += btn3;
-        crystalsTotal += btn4;
-        console.log(crystalsTotal);
+        $("#crystalTotals").text(crystalsTotal);
         console.log("You clicked a button!");
     })
 }
