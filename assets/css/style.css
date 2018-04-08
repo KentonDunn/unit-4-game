@@ -41,28 +41,31 @@ header{
 }
 
 .btn{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     float: left;
     padding: 5px;
     margin: 5px;
 }
 
 .btn-1{
-    background-color: green;
+    background-color: rgb(221, 149, 14);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0pkDPHNeml4N4i7pIV6tyG0O5f_XE2TVC88j4wW05C_-Lr0JM");
     }
 
 .btn-2{
-    background-color: red;
+    background-color: rgb(226, 17, 17);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-dIGl8tgM8-icTHOgl5vDFeW0ii6eIk1QiourTYcn6tU75RZM");
 }
 
 .btn-3{
-    background-color: black;
+    background-color: rgba(43, 59, 199, 0.856);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsQ2erHvYiKZ8YI0L4dhub1D4gzCXUBL2SBFWatFjRguD2HVAq5Q");
     color: white;
 }
 
 .btn-4{
-    background-color: blue;
+    background-color: rgb(93, 14, 139);
 }
 
 .yourScoreIs{
@@ -73,7 +76,7 @@ header{
 
 .crystalTotals{
     clear: both;
-    background-color: teal;
+    background-color: rgb(238, 241, 22);
     width: 250px;
     height: 200px;
 }
@@ -82,8 +85,8 @@ header{
     font-size: 45px;
 }
 
-.wrapper{
-background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ20Dwyxq7GyOiiQRvhM1E4qXBorT8WsxvdQzxlPciQZJ_4qY18");
+body{
+background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtrpMRM67CXyRZTDgvnYcrR1mJF_2DrcO2jNR7IZ2gzkqpGFNH");
 background-size: cover;
 background-repeat: no-repeat;
 }
