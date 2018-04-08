@@ -81,3 +81,10 @@ header{
 #crystalTotals{
     font-size: 45px;
 }
+
+.wrapper{
+background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ20Dwyxq7GyOiiQRvhM1E4qXBorT8WsxvdQzxlPciQZJ_4qY18");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
