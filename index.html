@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystals Collector Game</title>
-    <link rel="stylesheet" text="text/css" href="assets\css\style.css" link>
+    <link rel="stylesheet" text="text/css" href="assets/css/style.css" link>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!-- //*Create HTML !-->
@@ -31,8 +36,8 @@
             </h4>
         </div>
 
-        <div class="randomNumber">
-            #####
+        <div class="randomNumber"><span id="randomNumber"></span>
+           
         </div>
 
         <div class="winLossBox">
@@ -79,5 +84,7 @@
             !-->
 
     </div>
+
+    <script src="./assets/javascript/game.js"></script>
 </body>
 </html>
